@@ -1,0 +1,21 @@
+//Process
+// 1.) User clicks button, with an up and down animation
+// 2.) If button is a number, it shows on the screen
+// 3.) If the user has already clicked a number, the current is appended to the previous
+// 4.) If the user clicks the +/- sign, the current value on screen is negated or made positive
+// 5.) If the user clicks a math operator, it highlights the key
+// 6.) When the user clicks another number, now the screen clears, and shows the new number to compute
+// 6a.) Repeat 1-6
+// 7.) If the user clicks =, the result is computed and displayed
+// 7a.) User can continue to repeat 1 - 7
+// 8.) If user clicks AC, the UI is reset
+
+//Tasks
+// 1.) Listen for click, trigger an animation function and input function
+// 2.) Create an if/else statement to handle if the input is a number, clear, +/-, math operator, or equals sign
+// 3.) Append each click number value together and update the UI each time according to the process above
+// 4.) Create the functions for inputs clear, +/-, math oper
+// 5.) Create the equals operator function
+
+//Notes
+//This sounds like a process of a user creating a mathematical equation in which pieces are shown as strings in the DOM.
